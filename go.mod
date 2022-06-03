@@ -1,3 +1,3 @@
-module github.com/TimurTimergalin/collections.git
+module github.com/TimurTimergalin/collections
 
 go 1.18
