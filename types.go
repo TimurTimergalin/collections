@@ -1,4 +1,4 @@
-package useful_collections
+package collections
 
 import "fmt"
 
