@@ -5,6 +5,8 @@ import (
 	root "github.com/TimurTimergalin/collections"
 )
 
+// ArrayList is an implementation of List interface that uses Go array for storing data
+// see documentation for List interface for more info
 type ArrayList[T any] struct {
 	slice []T
 }

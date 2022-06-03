@@ -5,6 +5,7 @@ import (
 	root "github.com/TimurTimergalin/collections"
 )
 
+// List provides convenient interface to work with a sequence of elements
 type List[T any] interface {
 	root.Collection[T]
 	// Insert inserts element at given position

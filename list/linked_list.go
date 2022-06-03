@@ -22,6 +22,8 @@ func newElement[T any](el T) *element[T] {
 	return &element[T]{&el, nil, nil}
 }
 
+// LinkedList is an implementation of List interface that uses doubly linked list for storing data
+// see documentation for List interface for more info
 type LinkedList[T any] struct {
 	first, last *element[T]
 }

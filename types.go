@@ -1,12 +1,15 @@
+// Package collections provides useful collections such as lists or set
 package collections
 
 import "fmt"
 
+// Iterable represents an object that can iterated through
 type Iterable[T any] interface {
 	// Iterate calls function for every element of iterable
 	Iterate(func(T))
 }
 
+// Collection represents an object that stores data
 type Collection[T any] interface {
 	fmt.Stringer
 	Iterable[T]
