@@ -2,7 +2,7 @@
 package list
 
 import (
-	root "github.com/TimurTimergalin/collections.git"
+	root "github.com/TimurTimergalin/collections"
 )
 
 type List[T any] interface {

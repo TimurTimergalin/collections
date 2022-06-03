@@ -2,7 +2,7 @@ package list
 
 import (
 	"fmt"
-	root "github.com/TimurTimergalin/collections.git"
+	root "github.com/TimurTimergalin/collections"
 )
 
 type element[T any] struct {

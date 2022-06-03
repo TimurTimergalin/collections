@@ -3,7 +3,7 @@ package set
 
 import (
 	"fmt"
-	root "github.com/TimurTimergalin/collections.git"
+	root "github.com/TimurTimergalin/collections"
 )
 
 type Set[T comparable] map[T]bool
