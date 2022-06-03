@@ -240,7 +240,7 @@ func (l *LinkedList[T]) getBackwards(i int) T {
 	return el.Get()
 }
 
-func (l LinkedList[T]) Get(i int) T {
+func (l *LinkedList[T]) Get(i int) T {
 	if i >= 0 {
 		return l.getForward(i)
 	} else {
