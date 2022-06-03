@@ -1,4 +1,7 @@
 // Package list provides List interface and its implementations: ArrayList and LinkedList
+// subpackages:
+// list
+// set
 package list
 
 import (
