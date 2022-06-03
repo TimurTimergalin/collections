@@ -1,4 +1,7 @@
 // Package collections provides useful collections such as lists or set
+// subpackages:
+// list
+// set
 package collections
 
 import "fmt"
